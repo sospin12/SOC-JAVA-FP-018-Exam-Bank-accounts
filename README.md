@@ -1,18 +1,14 @@
-## Getting Started
+## BANK ACCOUNTS
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This excercise is about a bank accounts, where i have to create a management account system to create accounts weather is saving or checking account, using Object Oriented Programming.
 
-## Folder Structure
+## Class Structure
 
-The workspace contains two folders by default, where:
+The program has the next classes:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- `App`: has the main method in there.
+- `Accounts`: atributes (accountNumber, balance, ownerName, totalAccounts), methods (deposit, withdrow).
+- `SavingAccounts`: extends from Accounts. Atributes (super(accountNumber, balance, ownerName), interestRate) , methods super(withdrow).
+- `CheckingAccounts`: extends from Accounts. Atributes (super(accountNumber, balance, ownerName), overdraftLimit) , methods super(withdrow).
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
